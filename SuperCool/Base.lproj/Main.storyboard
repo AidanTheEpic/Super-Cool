@@ -17,6 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Super-Cool-Background" translatesAutoresizingMaskIntoConstraints="NO" id="5Pi-Dd-Oqm">
+                                <rect key="frame" x="-383" y="-73" width="1140" height="900"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83b-SA-k9t">
                                 <rect key="frame" x="105" y="319" width="164" height="30"/>
                                 <state key="normal" title="Make Me Super Cool!"/>
@@ -36,5 +39,6 @@
     </scenes>
     <resources>
         <image name="Super-Cool" width="642" height="110"/>
+        <image name="Super-Cool-Background" width="1667" height="1667"/>
     </resources>
 </document>
