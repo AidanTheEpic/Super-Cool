@@ -21,6 +21,9 @@
                                 <rect key="frame" x="105" y="319" width="164" height="30"/>
                                 <state key="normal" title="Make Me Super Cool!"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Super-Cool" translatesAutoresizingMaskIntoConstraints="NO" id="h0v-zs-hXL">
+                                <rect key="frame" x="2" y="41" width="370" height="172"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -31,4 +34,7 @@
             <point key="canvasLocation" x="365.5" y="339.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Super-Cool" width="642" height="110"/>
+    </resources>
 </document>
